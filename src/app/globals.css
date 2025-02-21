@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #0a8afe;
+  --primary-hover: #0a89ffbb;
+  --secondray-color: #333333;
+  --light-color:#fff;
+  --text-color:#7a7a7a;
+  --dark-color:#000;
+  --light-bg-color: #F9FBFE;
+}
+body{
+  background-color: var(--light-color);
+   
+}
+.home_client.swiper_style .swiper-pagination-bullet-active{
+  background-color: var(--primary-color) !important;
+}
+.home_client.swiper_style .swiper-wrapper{
+  padding-bottom: 30px;
+}
